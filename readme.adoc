@@ -1,0 +1,12 @@
+AOP Concepts
+
+---
+
+Join Point - One step of a program execution  +
+#execution(int com.example.aop.data.Dao1.tryMeToGtSomeValue())# +
+Point cut - Predicate that matches the join points +
+#"execution(* com.example.aop.data.*.*(..))"# +
+
+Advice - +
+Aspect - +
+Weaver - +
